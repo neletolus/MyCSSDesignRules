@@ -1,0 +1,17 @@
+.main {
+  &__inner {
+    padding: 2rem;
+
+    &__kv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &__image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}
